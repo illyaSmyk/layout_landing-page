@@ -1,12 +1,20 @@
-@import "blocks/page.css";
-@import "blocks/header.css";
-@import "blocks/top-bar.css";
-@import "blocks/icon.css";
-@import "blocks/menu.css";
-@import "blocks/nav.css";
-
-
-
-
-
-
+@import '../utils/variables';
+@import '../utils/mixins';
+@import 'blocks/reset';
+@import 'blocks/visually-hidden';
+@import 'blocks/page';
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/top-bar';
+@import 'blocks/icon';
+@import 'blocks/menu';
+@import 'blocks/nav';
+@import 'blocks/section-title';
+@import 'blocks/main';
+@import 'blocks/product';
+@import 'blocks/recommended';
+@import 'blocks/categories';
+@import 'blocks/category';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/contacts';
