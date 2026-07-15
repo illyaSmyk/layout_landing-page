@@ -14,3 +14,7 @@ h6,
 p {
   margin: 0;
 }
+
+body:has(.page__menu:target) {
+  overflow: hidden;
+}
