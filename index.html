@@ -32,8 +32,22 @@
               alt="Bang and Olufsen logo">
             </a>
             <div class="top-bar__icons">
-              <a href="#" class="icon icon--phone"></a>
-              <a href="#menu" class="icon icon--menu"></a>
+              <a 
+              href="tel:+123455555555" 
+              class="icon icon--phone top-bar__phone"
+              aria-label="Call +1 234 5555-55-55">
+
+                <span class="top-bar__phone-number">
+                +1 234 5555-55-55
+                </span> 
+                
+              </a>
+
+              <a 
+              href="#menu" 
+              class="icon icon--menu"
+              aria-label="Open menu"
+              ></a>
             </div>
           </div>
           <div class="header__bottom">
@@ -287,11 +301,18 @@
 
               <div class="contacts__item">
                 <p class="contacts__label">Address</p>
-                <address class="contacts__address">
+
+                <a class="contacts__address-link"
+                  href="https://www.google.com/maps/search/?api=1&query=400+First+Ave+Suite+700+Minneapolis+MN+55401" 
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  <address class="contacts__address">
                   400 First Ave.<br>
                   Suite 700<br>
                   Minneapolis, MN 55401
-                </address>
+                  </address>
+                </a>
               </div>
             </div>
 

@@ -1,4 +1,10 @@
 .product {
+  transition: transform $effectDuration;
+
+  &:hover {
+    transform: scale(1.04);
+  }
+
   &__photo {
     display: block;
     width: 100%;

@@ -26,4 +26,30 @@
       height: 24px;
     }
   }
+
+    &__phone {
+      position: relative;
+    }
+  
+    &__phone-number {
+      position: absolute;
+      top: 50%;
+      right: calc(100% + 8px);
+      width: max-content;
+      font-size: 12px;
+      color: $main-text-color;
+      text-decoration: none;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-50%) translateX(8px);
+      transition:
+        opacity $effectDuration,
+        transform $effectDuration;
+    }
+  
+    &__phone:hover &__phone-number,
+    &__phone:focus-visible &__phone-number {
+      opacity: 1;
+      transform: translateY(-50%) translateX(0);
+    }
 }
